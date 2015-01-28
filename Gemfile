@@ -3,9 +3,11 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.1.8'
 gem 'rails-api', '~> 0.4.0'
 gem 'mongoid', '~> 4.0.0'
+gem 'httparty', '~> 0.13.3'
 
 group :development do
 	gem 'spring', '~> 1.2.0'
+	gem 'dotenv-rails', '~> 1.0.2'
 	gem 'better_errors', '~> 2.1.1'
 	gem 'binding_of_caller', '~> 0.7.2'
 end
